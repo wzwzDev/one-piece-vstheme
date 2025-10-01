@@ -29,6 +29,78 @@
       "description": "Nika sun god energy background",
       "opacity": 0.04,
       "imagePath": "./backgrounds/gear-fifth-nika.png"
+    },
+    "brookViolinMode": {
+      "name": "🎻 Soul King Brook - Midnight Concert",
+      "description": "Brook playing violin under the starry night sky",
+      "opacity": 0.06,
+      "imagePath": "./backgrounds/crew/brook-violin-night.png"
+    },
+    "strawHatCrewSunsetMode": {
+      "name": "👥 Straw Hat Crew - Golden Sunset",
+      "description": "The complete crew silhouette watching the sunset",
+      "opacity": 0.07,
+      "imagePath": "./backgrounds/crew/crew-sunset-silhouette.png"
+    },
+    "namiLightningMode": {
+      "name": "⚡ Nami - Weather Wizard",
+      "description": "Nami commanding lightning and storms",
+      "opacity": 0.05,
+      "imagePath": "./backgrounds/crew/nami-lightning-power.png"
+    },
+    "sanjiFireMode": {
+      "name": "🔥 Sanji - Black Leg Inferno",
+      "description": "Sanji with blazing fire effects",
+      "opacity": 0.06,
+      "imagePath": "./backgrounds/crew/sanji-fire-legs.png"
+    },
+    "luffyUnderwaterMode": {
+      "name": "🌊 Luffy - Deep Sea Power",
+      "description": "Luffy surrounded by ocean currents and power",
+      "opacity": 0.04,
+      "imagePath": "./backgrounds/adventure/luffy-underwater-vortex.png"
+    },
+    "zoroSwordMode": {
+      "name": "⚔️ Zoro - Three Sword Style",
+      "description": "Zoro with mystical green sword energy",
+      "opacity": 0.05,
+      "imagePath": "./backgrounds/crew/zoro-sword-master.png"
+    },
+    "thousandSunnyGoldenMode": {
+      "name": "🌅 Thousand Sunny - Golden Journey",
+      "description": "The crew watching their ship in golden light",
+      "opacity": 0.07,
+      "imagePath": "./backgrounds/adventure/thousand-sunny-golden.png"
+    },
+    "chopperSnowMode": {
+      "name": "❄️ Chopper - Winter Wonder",
+      "description": "Adorable Chopper in a snowy wonderland",
+      "opacity": 0.04,
+      "imagePath": "./backgrounds/crew/chopper-snow-cute.png"
+    },
+    "usoppAdventureMode": {
+      "name": "🌳 Usopp - Forest Explorer",
+      "description": "Usopp on a golden forest adventure",
+      "opacity": 0.05,
+      "imagePath": "./backgrounds/crew/usopp-forest-adventure.png"
+    },
+    "luffyBeachSilhouetteMode": {
+      "name": "🏖️ Luffy - Peaceful Beach",
+      "description": "Luffy's peaceful silhouette by the ocean",
+      "opacity": 0.03,
+      "imagePath": "./backgrounds/moods/luffy-beach-silhouette.png"
+    },
+    "tropicalParadiseMode": {
+      "name": "🌴 Tropical Paradise",
+      "description": "Relaxing tropical island paradise",
+      "opacity": 0.04,
+      "imagePath": "./backgrounds/moods/tropical-paradise.png"
+    },
+    "luffyClassicMode": {
+      "name": "🍖 Luffy - Classic Portrait",
+      "description": "The iconic Luffy we all know and love",
+      "opacity": 0.05,
+      "imagePath": "./backgrounds/luffy-classic-portrait.png"
     }
   },
   "backgroundSettings": {

@@ -1,0 +1,54 @@
+/* 🎻 Brook's Midnight Concert - Epic Background */
+.monaco-workbench {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/brook-violin-night.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Make editor semi-transparent for readability */
+.monaco-editor .view-overlays .current-line {
+    background: rgba(26, 26, 46, 0.3) !important;
+}
+
+.monaco-editor-background {
+    background: rgba(26, 26, 46, 0.9) !important;
+}
+
+.editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background {
+    background: rgba(26, 26, 46, 0.9) !important;
+}
+
+.monaco-editor .margin {
+    background: rgba(26, 26, 46, 0.9) !important;
+}
+
+/* Sidebar transparency */
+.part.sidebar {
+    background: rgba(22, 33, 62, 0.95) !important;
+}
+
+/* Panel transparency */
+.part.panel {
+    background: rgba(22, 33, 62, 0.95) !important;
+}
+
+/* Activity bar transparency */
+.part.activitybar {
+    background: rgba(15, 15, 30, 0.95) !important;
+}
+
+/* Status bar transparency */
+.part.statusbar {
+    background: rgba(220, 20, 60, 0.95) !important;
+}
+
+/* Special Brook theme effects */
+.monaco-editor .cursors-layer .cursor {
+    box-shadow: 0 0 10px rgba(147, 112, 219, 0.8) !important;
+}
+
+.monaco-list-row:hover {
+    background: rgba(147, 112, 219, 0.1) !important;
+}

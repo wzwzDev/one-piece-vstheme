@@ -1,0 +1,11 @@
+/* 🔥 DEBUG TEST - RED BACKGROUND */
+
+.monaco-workbench {
+    background: linear-gradient(45deg, #ff0000, #990000) !important;
+}
+
+body {
+    background: linear-gradient(45deg, #ff0000, #990000) !important;
+}
+
+/* This should make VS Code red if Custom CSS is working */

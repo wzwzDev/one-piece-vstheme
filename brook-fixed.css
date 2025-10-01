@@ -1,0 +1,65 @@
+/* 🎻 Brook's Epic Background - FIXED VERSION */
+
+/* Apply background to the main workbench */
+body {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/luffy-brook-violin-night.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.monaco-workbench {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/luffy-brook-violin-night.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Make editor areas semi-transparent */
+.monaco-editor-background {
+    background: rgba(26, 26, 46, 0.9) !important;
+}
+
+.monaco-editor .view-lines {
+    background: rgba(26, 26, 46, 0.9) !important;
+}
+
+.editor-container {
+    background: rgba(26, 26, 46, 0.9) !important;
+}
+
+.split-view-view {
+    background: rgba(26, 26, 46, 0.9) !important;
+}
+
+/* Sidebar transparency */
+.sidebar {
+    background: rgba(22, 33, 62, 0.95) !important;
+}
+
+/* Panel transparency */
+.panel {
+    background: rgba(22, 33, 62, 0.95) !important;
+}
+
+/* ActivityBar transparency */
+.activitybar {
+    background: rgba(15, 15, 30, 0.95) !important;
+}
+
+/* Status bar with Luffy red */
+.statusbar {
+    background: rgba(220, 20, 60, 0.95) !important;
+}
+
+/* Brook's soul effects */
+.cursor {
+    box-shadow: 0 0 10px rgba(147, 112, 219, 0.8) !important;
+}
+
+/* Selection highlighting */
+.monaco-editor .focused .selected-text {
+    background: rgba(147, 112, 219, 0.3) !important;
+}

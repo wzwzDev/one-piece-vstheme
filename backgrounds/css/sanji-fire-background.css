@@ -1,0 +1,30 @@
+/* 🔥 Sanji - Black Leg Inferno Background */
+.monaco-workbench {
+    background-image: url('./backgrounds/crew/sanji-fire-legs.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background {
+    background: rgba(26, 26, 46, 0.94) !important;
+}
+
+.monaco-editor .margin {
+    background: rgba(26, 26, 46, 0.94) !important;
+}
+
+/* Fire theme effects */
+.monaco-editor .cursors-layer .cursor {
+    box-shadow: 0 0 18px rgba(255, 69, 0, 0.9) !important;
+}
+
+.monaco-editor .current-line {
+    background: rgba(255, 69, 0, 0.1) !important;
+}
+
+.find-widget {
+    background: rgba(255, 69, 0, 0.9) !important;
+    border: 2px solid rgba(255, 140, 0, 0.8) !important;
+}

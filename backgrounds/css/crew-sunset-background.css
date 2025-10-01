@@ -1,0 +1,29 @@
+/* 👥 Straw Hat Crew - Golden Sunset Background */
+.monaco-workbench {
+    background-image: url('./backgrounds/crew/crew-sunset-silhouette.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background {
+    background: rgba(26, 26, 46, 0.93) !important;
+}
+
+.monaco-editor .margin {
+    background: rgba(26, 26, 46, 0.93) !important;
+}
+
+/* Golden sunset theme effects */
+.monaco-editor .cursors-layer .cursor {
+    box-shadow: 0 0 12px rgba(255, 215, 0, 0.9) !important;
+}
+
+.monaco-list-row.selected {
+    background: rgba(255, 215, 0, 0.15) !important;
+}
+
+.activity-bar-badge {
+    background: rgba(255, 140, 0, 0.9) !important;
+}

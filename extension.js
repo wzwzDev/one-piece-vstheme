@@ -25,6 +25,41 @@ function activate(context) {
         currentGear = 'gear2';
         vscode.window.showInformationMessage('🔥 GEAR SECOND ACTIVATED! Speed coding mode ON! 💨');
         updateStatusBar();
+        applyGearThemeEffect('gear2');
+    });
+
+    // 💪 GEAR THIRD COMMAND  
+    let gearThird = vscode.commands.registerCommand('luffy.activateGearThird', function () {
+        currentGear = 'gear3';
+        vscode.window.showInformationMessage('💪 GEAR THIRD ACTIVATED! Giant power coding! 🦴');
+        updateStatusBar();
+        applyGearThemeEffect('gear3');
+    });
+
+    // 🦍 GEAR FOURTH COMMAND
+    let gearFourth = vscode.commands.registerCommand('luffy.activateGearFourth', function () {
+        currentGear = 'gear4';
+        vscode.window.showInformationMessage('🦍 GEAR FOURTH: BOUNDMAN! Elastic coding power! 🎈');
+        updateStatusBar();
+        applyGearThemeEffect('gear4');
+    });
+
+    // ☀️ GEAR FIFTH COMMAND (Sun God Nika)
+    let gearFifth = vscode.commands.registerCommand('luffy.activateGearFifth', function () {
+        currentGear = 'gear5';
+        vscode.window.showInformationMessage('☀️ GEAR FIFTH: NIKA! The most ridiculous coding power! 🎊');
+        updateStatusBar();
+        applyGearThemeEffect('gear5');
+        // Special celebration for Gear 5th
+        vscode.window.showInformationMessage('🎉 THE SUN GOD AWAKENS! Ultimate creative freedom activated! 🌟');
+    });
+
+    // 🏴‍☠️ NORMAL GEAR RESET
+    let resetGear = vscode.commands.registerCommand('luffy.resetGear', function () {
+        currentGear = 'normal';
+        vscode.window.showInformationMessage('🏴‍☠️ Back to normal! Ready for the next adventure!');
+        updateStatusBar();
+        resetGearThemeEffect();
     });
 
     // 👥 CREW ASSEMBLE COMMAND  
@@ -96,10 +131,102 @@ function activate(context) {
         });
     });
 
-    // 📊 BOUNTY STATUS COMMAND
-    let bountyStatus = vscode.commands.registerCommand('luffy.bountyStatus', function () {
-        const rank = getBountyRank(bounty);
-        vscode.window.showInformationMessage(`💰 Current Bounty: ${bounty.toLocaleString()} berries! Rank: ${rank}`);
+    // � ADVENTURE LOG COMMAND
+    let adventureLog = vscode.commands.registerCommand('luffy.openAdventureLog', function () {
+        const stats = {
+            bounty: bounty,
+            gear: currentGear,
+            haki: hakiLevel,
+            crew: activeCrew,
+            saves: Math.floor(bounty / 10000) // Each save = 10k berries
+        };
+        
+        const logMessage = `
+🏴‍☠️ === ADVENTURE LOG ===
+👑 Captain: Monkey D. Luffy (You!)
+💰 Bounty: ${stats.bounty.toLocaleString()} berries
+⚙️ Current Gear: ${stats.gear.toUpperCase()}
+🔮 Haki Level: ${stats.haki}/10
+👥 Active Crew: ${stats.crew.charAt(0).toUpperCase() + stats.crew.slice(1)}
+💾 Files Saved: ${stats.saves}
+🏆 Rank: ${getBountyRank(stats.bounty)}
+⭐ Theme: ${getCurrentTimeThemeInfo().name}
+        `;
+        
+        vscode.window.showInformationMessage(logMessage, 'Set New Goal!', 'Share Achievement').then(choice => {
+            if (choice === 'Set New Goal!') {
+                vscode.window.showInputBox({
+                    prompt: 'What\'s your next coding adventure goal?',
+                    placeHolder: 'e.g., Reach 10M bounty, Master all Gears, etc.'
+                }).then(goal => {
+                    if (goal) {
+                        vscode.window.showInformationMessage(`🎯 New goal set: "${goal}". Let's make it happen!`);
+                    }
+                });
+            }
+        });
+    });
+
+    // 🎲 DEVIL FRUIT POWER COMMAND
+    let devilFruitPower = vscode.commands.registerCommand('luffy.useDevilFruitPower', function () {
+        const powers = [
+            'Gomu Gomu no Rocket! 🚀 - Jump to any file instantly!',
+            'Gomu Gomu no Gatling! 💥 - Rapid-fire code suggestions!', 
+            'Gomu Gomu no Balloon! 🎈 - Expand your workspace view!',
+            'Gomu Gomu no Storm! ⛈️ - Auto-format all files!',
+            'Gomu Gomu no Gigant! 🦣 - Zoom in for detailed coding!',
+            'Gomu Gomu no Red Hawk! 🔥 - Find and fix bugs instantly!'
+        ];
+        
+        const randomPower = powers[Math.floor(Math.random() * powers.length)];
+        vscode.window.showInformationMessage(`🍎 ${randomPower}`);
+        
+        // Add some berries for using powers
+        bounty += 50000;
+        updateStatusBar();
+    });
+
+    // 🌊 THOUSAND SUNNY COMMAND
+    let thousandSunny = vscode.commands.registerCommand('luffy.boardThousandSunny', function () {
+        vscode.window.showInformationMessage('⛵ Welcome aboard the Thousand Sunny! 🌊', 'Bridge', 'Library', 'Kitchen', 'Workshop').then(choice => {
+            const locations = {
+                'Bridge': '🗺️ Nami\'s navigation tools activated! Better project overview!',
+                'Library': '📚 Robin\'s research mode! Enhanced documentation!', 
+                'Kitchen': '🍳 Sanji\'s cooking energy! Productivity boost!',
+                'Workshop': '🔧 Franky\'s workshop! Time to build something SUPER!'
+            };
+            
+            if (choice && locations[choice]) {
+                vscode.window.showInformationMessage(locations[choice]);
+                bounty += 25000; // Bonus for exploring the ship
+                updateStatusBar();
+            }
+        });
+    });
+
+    // � CODING STATS COMMAND
+    let codingStats = vscode.commands.registerCommand('luffy.showCodingStats', function () {
+        const editor = vscode.window.activeTextEditor;
+        if (editor) {
+            const document = editor.document;
+            const text = document.getText();
+            const lines = text.split('\n').length;
+            const chars = text.length;
+            const words = text.split(/\s+/).filter(word => word.length > 0).length;
+            
+            const stats = `
+📊 === CODING STATS ===
+📄 Lines of Code: ${lines}
+🔤 Characters: ${chars.toLocaleString()}
+📝 Words: ${words.toLocaleString()}
+📁 File: ${document.fileName.split('/').pop()}
+🏴‍☠️ Adventure Points: ${Math.floor(lines * 10)} berries worth!
+            `;
+            
+            vscode.window.showInformationMessage(stats);
+        } else {
+            vscode.window.showInformationMessage('🏴‍☠️ Open a file first to see your coding stats!');
+        }
     });
 
     // 🌅 TIME-BASED THEME TOGGLE COMMAND
@@ -144,7 +271,13 @@ function activate(context) {
     });
 
     // 📝 Register all commands
-    context.subscriptions.push(gearSecond, crewAssemble, voiceOfAllThings, conquerorsHaki, changeBackground, bountyStatus, toggleTimeThemes, selectTimeTheme);
+    context.subscriptions.push(
+        gearSecond, gearThird, gearFourth, gearFifth, resetGear,
+        crewAssemble, voiceOfAllThings, conquerorsHaki, 
+        changeBackground, bountyStatus, adventureLog, 
+        devilFruitPower, thousandSunny, codingStats,
+        toggleTimeThemes, selectTimeTheme
+    );
 
     // 📊 STATUS BAR ITEMS
     const gearStatusBar = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 100);
@@ -216,7 +349,13 @@ function activate(context) {
     });
 
     // Register all commands and status bar items
-    context.subscriptions.push(gearSecond, crewAssemble, voiceOfAllThings, conquerorsHaki, changeBackground, bountyStatus, toggleTimeThemes, selectTimeTheme);
+    context.subscriptions.push(
+        gearSecond, gearThird, gearFourth, gearFifth, resetGear,
+        crewAssemble, voiceOfAllThings, conquerorsHaki,
+        changeBackground, bountyStatus, adventureLog,
+        devilFruitPower, thousandSunny, codingStats,
+        toggleTimeThemes, selectTimeTheme
+    );
     context.subscriptions.push(gearStatusBar, hakiStatusBar, bountyStatusBar, crewStatusBar);
 }
 
@@ -405,6 +544,79 @@ function getCurrentTimeThemeInfo() {
     };
     
     return themeInfo[currentTimeTheme] || { icon: '🏴‍☠️', name: 'Adventure', description: 'Pirate journey' };
+}
+
+// 🎨 GEAR THEME EFFECTS
+
+// Apply visual effects when activating different gears
+function applyGearThemeEffect(gear) {
+    try {
+        const gearEffects = {
+            'gear2': {
+                message: '🔥 Speed boost activated! Red energy flows through your editor!',
+                color: '#FF4444' // Red energy
+            },
+            'gear3': {
+                message: '💪 Giant mode! Your coding power has increased dramatically!',
+                color: '#8A2BE2' // Purple power
+            },
+            'gear4': {
+                message: '🦍 Boundman mode! Elastic and powerful coding abilities!',
+                color: '#FFD700' // Golden bounce
+            },
+            'gear5': {
+                message: '☀️ Sun God Nika awakened! Ultimate creative freedom!',
+                color: '#FFFFFF' // Divine white
+            }
+        };
+        
+        const effect = gearEffects[gear];
+        if (effect) {
+            vscode.window.showInformationMessage(effect.message);
+            
+            // Apply gear-specific theme modifications
+            applyGearTheme(gear);
+        }
+        
+    } catch (error) {
+        console.error('❌ Error applying gear effect:', error);
+    }
+}
+
+// Apply gear-specific theme changes
+function applyGearTheme(gear) {
+    try {
+        const config = vscode.workspace.getConfiguration();
+        
+        // For now, we'll use color customizations
+        // Future enhancement: Create dedicated Gear theme variants
+        const gearThemes = {
+            'gear2': 'Luffy One Piece Sunset Battle', // Red energy theme
+            'gear3': 'Luffy One Piece Mysterious Night', // Powerful dark theme  
+            'gear4': 'Luffy One Piece Bright Adventure', // Bouncy golden theme
+            'gear5': 'Luffy One Piece Dawn Sailing' // Divine light theme
+        };
+        
+        const themeName = gearThemes[gear];
+        if (themeName) {
+            config.update('workbench.colorTheme', themeName, vscode.ConfigurationTarget.Global);
+            console.log(`⚙️ Applied gear theme: ${themeName}`);
+        }
+        
+    } catch (error) {
+        console.error('❌ Error applying gear theme:', error);
+    }
+}
+
+// Reset to normal gear theme
+function resetGearThemeEffect() {
+    try {
+        const config = vscode.workspace.getConfiguration();
+        config.update('workbench.colorTheme', 'Luffy One Piece Dark', vscode.ConfigurationTarget.Global);
+        vscode.window.showInformationMessage('🏴‍☠️ Gear effects reset! Back to adventure mode!');
+    } catch (error) {
+        console.error('❌ Error resetting gear theme:', error);
+    }
 }
 
 function deactivate() {

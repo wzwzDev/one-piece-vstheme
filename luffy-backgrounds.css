@@ -1,0 +1,96 @@
+/* 🏴‍☠️ Luffy One Piece Epic Backgrounds CSS */
+
+/* Brook's Midnight Concert */
+.luffy-background-brook {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/brook-violin-night.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Crew Golden Sunset */
+.luffy-background-crew-sunset {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/crew-sunset-silhouette.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Nami Lightning Power */
+.luffy-background-nami {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/nami-lightning-power.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Sanji Fire Legs */
+.luffy-background-sanji {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/sanji-fire-legs.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Zoro Sword Master */
+.luffy-background-zoro {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/zoro-sword-master.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Luffy Underwater Vortex */
+.luffy-background-luffy-underwater {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/adventure/luffy-underwater-vortex.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Thousand Sunny Golden */
+.luffy-background-thousand-sunny {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/adventure/thousand-sunny-golden.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Apply to VS Code workbench */
+.monaco-workbench.luffy-background-brook,
+.monaco-workbench.luffy-background-crew-sunset,
+.monaco-workbench.luffy-background-nami,
+.monaco-workbench.luffy-background-sanji,
+.monaco-workbench.luffy-background-zoro,
+.monaco-workbench.luffy-background-luffy-underwater,
+.monaco-workbench.luffy-background-thousand-sunny {
+    background-attachment: fixed !important;
+}
+
+/* Editor transparency for better readability */
+.monaco-workbench.luffy-background-brook .editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background,
+.monaco-workbench.luffy-background-crew-sunset .editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background,
+.monaco-workbench.luffy-background-nami .editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background,
+.monaco-workbench.luffy-background-sanji .editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background,
+.monaco-workbench.luffy-background-zoro .editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background,
+.monaco-workbench.luffy-background-luffy-underwater .editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background,
+.monaco-workbench.luffy-background-thousand-sunny .editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background {
+    background: rgba(26, 26, 46, 0.95) !important;
+}
+
+.monaco-workbench.luffy-background-brook .monaco-editor .margin,
+.monaco-workbench.luffy-background-crew-sunset .monaco-editor .margin,
+.monaco-workbench.luffy-background-nami .monaco-editor .margin,
+.monaco-workbench.luffy-background-sanji .monaco-editor .margin,
+.monaco-workbench.luffy-background-zoro .monaco-editor .margin,
+.monaco-workbench.luffy-background-luffy-underwater .monaco-editor .margin,
+.monaco-workbench.luffy-background-thousand-sunny .monaco-editor .margin {
+    background: rgba(26, 26, 46, 0.95) !important;
+}

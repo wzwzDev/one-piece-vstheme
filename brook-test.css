@@ -1,0 +1,30 @@
+/* � BROOK VIOLIN BACKGROUND - SIMPLE VERSION */
+
+body {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/brook-violin-night.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.monaco-workbench {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/brook-violin-night.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* Semi-transparent editor for readability */
+.monaco-editor .view-overlays .current-line {
+    background: rgba(26, 26, 46, 0.3) !important;
+}
+
+.monaco-editor-background {
+    background: rgba(26, 26, 46, 0.85) !important;
+}
+
+.editor-container {
+    background: rgba(26, 26, 46, 0.85) !important;
+}

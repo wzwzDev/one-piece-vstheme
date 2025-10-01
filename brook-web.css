@@ -1,0 +1,32 @@
+/* 🎻 BROOK BACKGROUND - WEB FORMAT */
+
+.monaco-workbench {
+    background-image: url('data:image/png;base64,BASE64_HERE') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* If file URL doesn't work, we'll convert the PNG to base64 */
+/* For now, let's try a simpler approach */
+
+.monaco-workbench {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f1e 100%) !important;
+    position: relative !important;
+}
+
+.monaco-workbench::before {
+    content: "" !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/brook-violin-night.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    opacity: 0.1 !important;
+    z-index: -1 !important;
+    pointer-events: none !important;
+}

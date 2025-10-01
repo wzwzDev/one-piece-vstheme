@@ -1,0 +1,29 @@
+/* 🎻 Soul King Brook - Midnight Concert Background */
+.monaco-workbench {
+    background-image: url('./backgrounds/crew/brook-violin-night.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background {
+    background: rgba(26, 26, 46, 0.94) !important;
+}
+
+.monaco-editor .margin {
+    background: rgba(26, 26, 46, 0.94) !important;
+}
+
+.monaco-editor .margin-view-overlays .current-line {
+    border: 1px solid rgba(255, 215, 0, 0.3) !important;
+}
+
+/* Special effects for Brook's musical theme */
+.monaco-editor .cursors-layer .cursor {
+    box-shadow: 0 0 10px rgba(147, 112, 219, 0.8) !important;
+}
+
+.monaco-list-row:hover {
+    background: rgba(147, 112, 219, 0.1) !important;
+}

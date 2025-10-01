@@ -9,12 +9,21 @@
   },
   "categories": [
     "Themes",
-    "Icon Themes"
+    "Other"
   ],
   "activationEvents": [
-    "*"
+    "onCommand:luffy.test",
+    "onCommand:luffy.activateGearSecond",
+    "onCommand:luffy.crewAssemble",
+    "onCommand:luffy.selectBackground",
+    "onCommand:luffy.backgroundBrook",
+    "onCommand:luffy.backgroundCrewSunset",
+    "onCommand:luffy.backgroundNami",
+    "onCommand:luffy.backgroundSanji",
+    "onCommand:luffy.backgroundLuffyUnderwater",
+    "onCommand:luffy.backgroundZoro"
   ],
-  "main": "./extension.js",
+  "main": "./extension-backgrounds.js",
   "keywords": [
     "theme",
     "one piece",
@@ -91,6 +100,11 @@
     ],
     "commands": [
       {
+        "command": "luffy.test",
+        "title": "🏴‍☠️ AHOY! Luffy Theme is working!",
+        "category": "Luffy"
+      },
+      {
         "command": "luffy.activateGearSecond",
         "title": "🔥 Gear Second - Speed Coding!",
         "category": "Luffy"
@@ -101,52 +115,45 @@
         "category": "Luffy"
       },
       {
-        "command": "luffy.voiceOfAllThings",
-        "title": "🌟 Listen to Your Code",
-        "category": "Luffy"
+        "command": "luffy.selectBackground",
+        "title": "🖼️ Choose Epic Background",
+        "category": "Luffy Backgrounds"
       },
       {
-        "command": "luffy.conquerorsHaki",
-        "title": "👑 Conqueror's Haki - Dominate Bugs!",
-        "category": "Luffy"
+        "command": "luffy.backgroundBrook",
+        "title": "🎻 Brook's Midnight Concert",
+        "category": "Luffy Backgrounds"
       },
       {
-        "command": "luffy.changeBackground",
-        "title": "🎨 Change Adventure Background",
-        "category": "Luffy"
+        "command": "luffy.backgroundCrewSunset",
+        "title": "👥 Crew Golden Sunset",
+        "category": "Luffy Backgrounds"
       },
       {
-        "command": "luffy.bountyStatus",
-        "title": "💰 Check Your Bounty Status",
-        "category": "Luffy"
+        "command": "luffy.backgroundNami",
+        "title": "⚡ Nami's Lightning Power",
+        "category": "Luffy Backgrounds"
       },
       {
-        "command": "luffy.toggleTimeBasedThemes",
-        "title": "🌅 Toggle Time-Based Grand Line Themes",
-        "category": "Luffy"
+        "command": "luffy.backgroundSanji",
+        "title": "🔥 Sanji's Fiery Passion",
+        "category": "Luffy Backgrounds"
       },
       {
-        "command": "luffy.selectTimeTheme",
-        "title": "🎨 Select Grand Line Time Theme",
-        "category": "Luffy"
+        "command": "luffy.backgroundLuffyUnderwater",
+        "title": "🌊 Luffy's Ocean Power",
+        "category": "Luffy Backgrounds"
+      },
+      {
+        "command": "luffy.backgroundZoro",
+        "title": "⚔️ Zoro's Sword Mastery",
+        "category": "Luffy Backgrounds"
       }
     ],
     "keybindings": [
       {
         "command": "luffy.activateGearSecond",
         "key": "ctrl+shift+g ctrl+shift+2"
-      },
-      {
-        "command": "luffy.conquerorsHaki",
-        "key": "ctrl+shift+h"
-      },
-      {
-        "command": "luffy.crewAssemble",
-        "key": "ctrl+shift+a"
-      },
-      {
-        "command": "luffy.voiceOfAllThings",
-        "key": "ctrl+shift+v"
       }
     ],
     "configuration": {

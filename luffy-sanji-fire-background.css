@@ -1,0 +1,46 @@
+/* 🔥 Sanji - Black Leg Fire Background */
+.monaco-workbench {
+    background-image: url('file:///c:/Users/RetailAdmin/OneDrive/Bureau/luffy-theme/backgrounds/crew/sanji-fire-legs.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.monaco-editor-background {
+    background: rgba(26, 26, 46, 0.94) !important;
+}
+
+.editor-container .monaco-editor .monaco-scrollable-element .monaco-editor-background {
+    background: rgba(26, 26, 46, 0.94) !important;
+}
+
+.monaco-editor .margin {
+    background: rgba(26, 26, 46, 0.94) !important;
+}
+
+.part.sidebar {
+    background: rgba(22, 33, 62, 0.95) !important;
+}
+
+.part.panel {
+    background: rgba(22, 33, 62, 0.95) !important;
+}
+
+.part.activitybar {
+    background: rgba(15, 15, 30, 0.95) !important;
+}
+
+/* Fire theme effects */
+.monaco-editor .cursors-layer .cursor {
+    box-shadow: 0 0 18px rgba(255, 69, 0, 0.9) !important;
+}
+
+.monaco-editor .current-line {
+    background: rgba(255, 69, 0, 0.1) !important;
+}
+
+.find-widget {
+    background: rgba(255, 69, 0, 0.9) !important;
+    border: 2px solid rgba(255, 140, 0, 0.8) !important;
+}
