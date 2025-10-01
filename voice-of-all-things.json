@@ -1,0 +1,36 @@
+{
+  "voiceOfAllThings": {
+    "description": "🌟 Like Luffy hearing Sea Kings, understand what your code is really saying!",
+    "abilities": {
+      "codeWhispering": {
+        "feature": "Code tells you its intentions and problems",
+        "examples": [
+          "This function whispers: 'I'm doing too many things, please split me!'",
+          "This variable says: 'My name doesn't match what I actually do!'",
+          "This loop cries: 'I'm running too slow, optimize me!'"
+        ]
+      },
+      "bugVoices": {
+        "feature": "Bugs speak before they manifest",
+        "examples": [
+          "Null pointer whispers: 'I'm about to crash your program'",
+          "Memory leak murmurs: 'I'm slowly consuming your resources'",
+          "Race condition shouts: 'We're going to collide!'"
+        ]
+      },
+      "architectureSpirit": {
+        "feature": "Project architecture reveals its destiny",
+        "examples": [
+          "Monolith groans: 'I want to be microservices when I grow up'",
+          "Database schema hums: 'These relationships could be simpler'",
+          "API endpoints sing: 'We need better organization!'"
+        ]
+      }
+    },
+    "implementation": {
+      "aiModel": "Custom trained on One Piece dialogue patterns",
+      "personality": "Friendly, adventurous, optimistic like Luffy",
+      "responses": "Always encouraging, never discouraging"
+    }
+  }
+}

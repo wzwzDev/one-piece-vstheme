@@ -1,0 +1,11 @@
+{
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "luffy-file-icons",
+        "label": "Luffy One Piece File Icons",
+        "path": "./fileicons/luffy-file-icon-theme.json"
+      }
+    ]
+  }
+}

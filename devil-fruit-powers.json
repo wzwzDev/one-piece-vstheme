@@ -1,0 +1,36 @@
+{
+  "devilFruitPowers": {
+    "gomuGomuNoMi": {
+      "name": "🍎 Gomu Gomu Fruit - Rubber Code!",
+      "abilities": {
+        "stretchCode": "Automatically expands short variable names to descriptive ones",
+        "bounceBack": "Reverts bad changes automatically",
+        "rubberDebugging": "Code bends around errors instead of breaking"
+      }
+    },
+    "mokuMokuNoMi": {
+      "name": "☁️ Moku Moku Fruit - Smoke Code!",
+      "abilities": {
+        "cloudRefactoring": "Moves code seamlessly between files",
+        "smokeScreen": "Hides sensitive data automatically",
+        "vaporize": "Removes unused code instantly"
+      }
+    },
+    "meraTheraNoMi": {
+      "name": "🔥 Mera Mera Fruit - Fire Code!",
+      "abilities": {
+        "burnBugs": "Destroys bugs with extreme prejudice",
+        "hotReload": "Instant code compilation and execution",
+        "flameFormat": "Beautifies code with fire-like intensity"
+      }
+    },
+    "hieHieNoMi": {
+      "name": "❄️ Hie Hie Fruit - Ice Code!",
+      "abilities": {
+        "freezeState": "Creates immutable data structures",
+        "coldStorage": "Optimizes memory usage",
+        "iceAge": "Preserves code versions perfectly"
+      }
+    }
+  }
+}

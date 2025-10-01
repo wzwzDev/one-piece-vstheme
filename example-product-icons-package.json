@@ -1,0 +1,11 @@
+{
+  "contributes": {
+    "productIconThemes": [
+      {
+        "id": "luffy-product-icons",
+        "label": "Luffy One Piece Product Icons",
+        "path": "./icons/luffy-product-icon-theme.json"
+      }
+    ]
+  }
+}

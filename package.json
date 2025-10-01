@@ -1,0 +1,225 @@
+{
+  "name": "luffy-one-piece-theme",
+  "displayName": "Luffy One Piece Theme",
+  "description": "A vibrant VS Code theme inspired by Monkey D. Luffy and the One Piece universe with LEGENDARY features: Gear System, Haki Powers, Devil Fruit abilities, Crew AI assistance, Adventure Log, and Voice of All Things!",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes",
+    "Icon Themes"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension.js",
+  "keywords": [
+    "theme",
+    "one piece",
+    "luffy",
+    "anime",
+    "manga",
+    "pirate",
+    "adventure",
+    "colorful",
+    "vibrant",
+    "gear system",
+    "haki",
+    "devil fruit",
+    "crew assistance",
+    "revolutionary",
+    "legendary",
+    "unique",
+    "interactive",
+    "gamified"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Luffy One Piece Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/luffy-dark-theme.json"
+      },
+      {
+        "label": "Luffy One Piece Light",
+        "uiTheme": "vs",
+        "path": "./themes/luffy-light-theme.json"
+      },
+      {
+        "label": "Luffy One Piece Dawn Sailing",
+        "uiTheme": "vs-dark",
+        "path": "./themes/luffy-dawn-sailing.json"
+      },
+      {
+        "label": "Luffy One Piece Bright Adventure",
+        "uiTheme": "vs",
+        "path": "./themes/luffy-bright-adventure.json"
+      },
+      {
+        "label": "Luffy One Piece Sunset Battle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/luffy-sunset-battle.json"
+      },
+      {
+        "label": "Luffy One Piece Mysterious Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/luffy-mysterious-night.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "luffy-one-piece-icons",
+        "label": "Luffy One Piece Icons",
+        "path": "./icons/luffy-file-icon-theme.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/one-piece.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/one-piece.code-snippets"
+      },
+      {
+        "language": "python",
+        "path": "./snippets/one-piece.code-snippets"
+      }
+    ],
+    "commands": [
+      {
+        "command": "luffy.activateGearSecond",
+        "title": "🔥 Gear Second - Speed Coding!",
+        "category": "Luffy"
+      },
+      {
+        "command": "luffy.crewAssemble",
+        "title": "🏴‍☠️ Assemble the Crew!",
+        "category": "Luffy"
+      },
+      {
+        "command": "luffy.voiceOfAllThings",
+        "title": "🌟 Listen to Your Code",
+        "category": "Luffy"
+      },
+      {
+        "command": "luffy.conquerorsHaki",
+        "title": "👑 Conqueror's Haki - Dominate Bugs!",
+        "category": "Luffy"
+      },
+      {
+        "command": "luffy.changeBackground",
+        "title": "🎨 Change Adventure Background",
+        "category": "Luffy"
+      },
+      {
+        "command": "luffy.bountyStatus",
+        "title": "💰 Check Your Bounty Status",
+        "category": "Luffy"
+      },
+      {
+        "command": "luffy.toggleTimeBasedThemes",
+        "title": "🌅 Toggle Time-Based Grand Line Themes",
+        "category": "Luffy"
+      },
+      {
+        "command": "luffy.selectTimeTheme",
+        "title": "🎨 Select Grand Line Time Theme",
+        "category": "Luffy"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "luffy.activateGearSecond",
+        "key": "ctrl+shift+g ctrl+shift+2"
+      },
+      {
+        "command": "luffy.conquerorsHaki",
+        "key": "ctrl+shift+h"
+      },
+      {
+        "command": "luffy.crewAssemble",
+        "key": "ctrl+shift+a"
+      },
+      {
+        "command": "luffy.voiceOfAllThings",
+        "key": "ctrl+shift+v"
+      }
+    ],
+    "configuration": {
+      "title": "Luffy One Piece Theme",
+      "properties": {
+        "luffyTheme.gearMode": {
+          "type": "string",
+          "default": "normal",
+          "enum": ["normal", "gear2", "gear3", "gear4", "gear5"],
+          "description": "Current Gear mode for enhanced coding abilities"
+        },
+        "luffyTheme.hakiLevel": {
+          "type": "number",
+          "default": 1,
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Your Haki mastery level (1-10)"
+        },
+        "luffyTheme.bounty": {
+          "type": "number",
+          "default": 0,
+          "description": "Your current coding bounty in berries"
+        },
+        "luffyTheme.crewMember": {
+          "type": "string",
+          "default": "luffy",
+          "enum": ["luffy", "zoro", "nami", "usopp", "sanji", "chopper", "robin", "franky", "brook", "jinbe"],
+          "description": "Choose your favorite crew member assistant"
+        },
+        "luffyTheme.currentBackground": {
+          "type": "string",
+          "default": "none",
+          "enum": ["none", "luffyMode", "thousandSunnyMode", "strawHatMode", "grandLineMode", "gearFifthMode"],
+          "description": "Current active background theme"
+        },
+        "luffyTheme.backgroundOpacity": {
+          "type": "number",
+          "default": 0.05,
+          "minimum": 0.01,
+          "maximum": 0.3,
+          "description": "Background image opacity (0.01-0.3)"
+        },
+        "luffyTheme.enableBackgroundEffects": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable background visual effects (particles, animations)"
+        },
+        "luffyTheme.enableTimeBasedThemes": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically switch themes based on time of day (Grand Line journey)"
+        },
+        "luffyTheme.currentTimeTheme": {
+          "type": "string",
+          "default": "day",
+          "enum": ["dawn", "day", "evening", "night"],
+          "description": "Current time-based theme (dawn, day, evening, night)"
+        }
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/luffy-one-piece-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/luffy-one-piece-theme/issues"
+  },
+  "homepage": "https://github.com/your-username/luffy-one-piece-theme#readme",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#DC143C",
+    "theme": "dark"
+  }
+}

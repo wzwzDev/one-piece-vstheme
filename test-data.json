@@ -1,0 +1,19 @@
+{
+  "themeName": "Luffy One Piece Theme",
+  "captain": "Monkey D. Luffy",
+  "crew": [
+    {
+      "name": "Roronoa Zoro",
+      "position": "Swordsman",
+      "bounty": 1111000000
+    },
+    {
+      "name": "Nami",
+      "position": "Navigator", 
+      "bounty": 366000000
+    }
+  ],
+  "ship": "Thousand Sunny",
+  "goal": "One Piece",
+  "note": "This JSON file should show your Devil Fruit icon! 🍎🏴‍☠️"
+}

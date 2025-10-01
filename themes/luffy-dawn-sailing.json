@@ -1,0 +1,68 @@
+{
+  "name": "Luffy One Piece Dawn Sailing",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#2B1B3D",
+    "editor.foreground": "#E6E6FA",
+    "activityBar.background": "#FF6B35",
+    "activityBar.foreground": "#FFFFFF",
+    "sideBar.background": "#3D2B4A",
+    "sideBar.foreground": "#E6E6FA",
+    "statusBar.background": "#FF8C00",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#FF7F50",
+    "titleBar.activeForeground": "#FFFFFF",
+    "panel.background": "#2B1B3D",
+    "panel.border": "#FF6B35",
+    "terminal.background": "#2B1B3D",
+    "terminal.foreground": "#E6E6FA",
+    "editorGroup.border": "#FF6B35",
+    "editorGroupHeader.tabsBackground": "#3D2B4A",
+    "tab.activeBackground": "#FF6B35",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveBackground": "#3D2B4A",
+    "tab.inactiveForeground": "#B0B0B0"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#FF6B35",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#FFD700"
+      }
+    },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#87CEEB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#FF69B4"
+      }
+    },
+    {
+      "scope": ["variable", "support.variable"],
+      "settings": {
+        "foreground": "#98FB98"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#87CEFA",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

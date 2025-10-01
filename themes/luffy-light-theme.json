@@ -1,0 +1,188 @@
+{
+  "name": "Luffy One Piece Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#fffef7",
+    "editor.foreground": "#2c2c54",
+    "editorCursor.foreground": "#dc143c",
+    "editor.selectionBackground": "#ffd70033",
+    "editor.selectionHighlightBackground": "#ffd70022",
+    "editor.lineHighlightBackground": "#f0f8ff22",
+    "editor.wordHighlightBackground": "#dc143c22",
+    "editor.wordHighlightStrongBackground": "#dc143c33",
+    "editor.findMatchBackground": "#ff4500aa",
+    "editor.findMatchHighlightBackground": "#ff450055",
+    "activityBar.background": "#f0f8ff",
+    "activityBar.foreground": "#dc143c",
+    "activityBar.activeBorder": "#ffd700",
+    "activityBar.activeBackground": "#ffd70022",
+    "activityBarBadge.background": "#dc143c",
+    "activityBarBadge.foreground": "#ffffff",
+    "sideBar.background": "#f8f9fa",
+    "sideBar.foreground": "#2c2c54",
+    "sideBarTitle.foreground": "#dc143c",
+    "sideBarSectionHeader.background": "#f0f8ff",
+    "sideBarSectionHeader.foreground": "#dc143c",
+    "statusBar.background": "#ffd700",
+    "statusBar.foreground": "#000000",
+    "statusBar.noFolderBackground": "#ff4500",
+    "statusBar.debuggingBackground": "#dc143c",
+    "statusBar.debuggingForeground": "#ffffff",
+    "tab.activeBackground": "#fffef7",
+    "tab.activeForeground": "#dc143c",
+    "tab.activeBorder": "#ffd700",
+    "tab.inactiveBackground": "#f0f8ff",
+    "tab.inactiveForeground": "#6c757d",
+    "tab.border": "#e9ecef",
+    "titleBar.activeBackground": "#f0f8ff",
+    "titleBar.activeForeground": "#dc143c",
+    "titleBar.inactiveBackground": "#f8f9fa",
+    "titleBar.inactiveForeground": "#6c757d",
+    "panel.background": "#f8f9fa",
+    "panel.border": "#e9ecef",
+    "panelTitle.activeBorder": "#ffd700",
+    "panelTitle.activeForeground": "#dc143c",
+    "panelTitle.inactiveForeground": "#6c757d",
+    "terminal.background": "#fffef7",
+    "terminal.foreground": "#2c2c54",
+    "terminal.ansiBlue": "#0066cc",
+    "terminal.ansiRed": "#dc143c",
+    "terminal.ansiYellow": "#b8860b",
+    "terminal.ansiGreen": "#228b22",
+    "terminal.ansiMagenta": "#da70d6",
+    "terminal.ansiCyan": "#008b8b",
+    "button.background": "#dc143c",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#b91c3c",
+    "input.background": "#ffffff",
+    "input.foreground": "#2c2c54",
+    "input.border": "#dc143c",
+    "input.placeholderForeground": "#6c757d",
+    "dropdown.background": "#ffffff",
+    "dropdown.foreground": "#2c2c54",
+    "dropdown.border": "#dc143c",
+    "badge.background": "#dc143c",
+    "badge.foreground": "#ffffff",
+    "progressBar.background": "#ffd700",
+    "gitDecoration.modifiedResourceForeground": "#b8860b",
+    "gitDecoration.deletedResourceForeground": "#dc143c",
+    "gitDecoration.untrackedResourceForeground": "#228b22",
+    "gitDecoration.conflictingResourceForeground": "#ff4500",
+    "notifications.background": "#ffffff",
+    "notifications.foreground": "#2c2c54",
+    "notificationCenter.border": "#dc143c",
+    "notificationsErrorIcon.foreground": "#dc143c",
+    "notificationsWarningIcon.foreground": "#ff4500",
+    "notificationsInfoIcon.foreground": "#0066cc"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#6a737d"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#dc143c",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["keyword.control", "keyword.operator"],
+      "settings": {
+        "foreground": "#ff4500"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#b8860b"
+      }
+    },
+    {
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#da70d6"
+      }
+    },
+    {
+      "scope": ["number", "constant.numeric"],
+      "settings": {
+        "foreground": "#0066cc"
+      }
+    },
+    {
+      "scope": ["constant.language", "constant.character"],
+      "settings": {
+        "foreground": "#008b8b"
+      }
+    },
+    {
+      "scope": ["variable", "variable.other"],
+      "settings": {
+        "foreground": "#2c2c54"
+      }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#795548"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#228b22"
+      }
+    },
+    {
+      "scope": ["entity.name.class", "entity.name.type"],
+      "settings": {
+        "foreground": "#008080"
+      }
+    },
+    {
+      "scope": ["support.type", "support.class"],
+      "settings": {
+        "foreground": "#008080"
+      }
+    },
+    {
+      "scope": ["punctuation", "meta.brace"],
+      "settings": {
+        "foreground": "#586069"
+      }
+    },
+    {
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#dc143c",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.bold"],
+      "settings": {
+        "foreground": "#dc143c",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.italic"],
+      "settings": {
+        "foreground": "#ff4500",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["markup.underline.link"],
+      "settings": {
+        "foreground": "#0066cc",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "iconDefinitions": {
+    "_folder": {
+      "iconPath": "../icons/file-icons/folders.png"
+    },
+    "_folder_open": {
+      "iconPath": "../icons/file-icons/folders.png"
+    },
+    "_js": {
+      "iconPath": "../icons/file-icons/js.png"
+    },
+    "_python": {
+      "iconPath": "../icons/file-icons/python.png"
+    },
+    "_typescript": {
+      "iconPath": "../icons/file-icons/typescript.png"
+    },
+    "_css": {
+      "iconPath": "../icons/file-icons/css.png"
+    },
+    "_html": {
+      "iconPath": "../icons/file-icons/html.png"
+    },
+    "_json": {
+      "iconPath": "../icons/file-icons/json.png"
+    },
+    "_markdown": {
+      "iconPath": "../icons/file-icons/markdown.png"
+    }
+  },
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "folderNames": {},
+  "folderNamesExpanded": {},
+  "fileExtensions": {
+    "js": "_js",
+    "jsx": "_js",
+    "ts": "_typescript",
+    "tsx": "_typescript",
+    "py": "_python",
+    "css": "_css",
+    "scss": "_css",
+    "sass": "_css",
+    "html": "_html",
+    "htm": "_html",
+    "json": "_json",
+    "md": "_markdown",
+    "markdown": "_markdown"
+  },
+  "fileNames": {},
+  "languageIds": {
+    "javascript": "_js",
+    "javascriptreact": "_js",
+    "typescript": "_typescript",
+    "typescriptreact": "_typescript",
+    "python": "_python",
+    "css": "_css",
+    "scss": "_css",
+    "sass": "_css",
+    "html": "_html",
+    "json": "_json",
+    "jsonc": "_json",
+    "markdown": "_markdown"
+  },
+  "light": {
+    "folder": "_folder",
+    "folderExpanded": "_folder_open",
+    "fileExtensions": {
+      "js": "_js",
+      "jsx": "_js",
+      "ts": "_typescript",
+      "tsx": "_typescript",
+      "py": "_python",
+      "css": "_css",
+      "scss": "_css",
+      "sass": "_css",
+      "html": "_html",
+      "htm": "_html",
+      "json": "_json",
+      "md": "_markdown",
+      "markdown": "_markdown"
+    }
+  },
+  "highContrast": {
+    "folder": "_folder",
+    "folderExpanded": "_folder_open"
+  }
+}

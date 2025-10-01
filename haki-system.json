@@ -1,0 +1,34 @@
+{
+  "hakiSystem": {
+    "observationHaki": {
+      "description": "🔮 Predicts code errors before they happen!",
+      "features": [
+        "Real-time error prediction",
+        "Code smell detection", 
+        "Performance bottleneck warnings",
+        "Security vulnerability alerts"
+      ],
+      "activation": "ctrl+shift+o"
+    },
+    "armamentHaki": {
+      "description": "⚫ Hardens your code against bugs!",
+      "features": [
+        "Auto-fixes common errors",
+        "Strengthens type checking",
+        "Adds defensive programming patterns",
+        "Bulletproof code generation"
+      ],
+      "activation": "ctrl+shift+a"
+    },
+    "conquerorsHaki": {
+      "description": "👑 Dominates the entire codebase!",
+      "features": [
+        "Mass refactoring power",
+        "Project-wide optimizations", 
+        "Legacy code modernization",
+        "Architecture pattern enforcement"
+      ],
+      "activation": "ctrl+shift+c"
+    }
+  }
+}

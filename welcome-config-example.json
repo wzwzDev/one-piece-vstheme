@@ -1,0 +1,21 @@
+{
+  "workbench.startupEditor": "welcomePage",
+  "workbench.welcomePage.walkthroughs": [
+    {
+      "id": "luffy.onePieceWelcome",
+      "title": "🏴‍☠️ Welcome to the Grand Line!",
+      "description": "Start your coding adventure with the Straw Hat Pirates!",
+      "steps": [
+        {
+          "id": "setTheme",
+          "title": "⚓ Set Sail with Luffy Theme",
+          "description": "Activate your One Piece theme and start your adventure!",
+          "media": {
+            "image": "images/luffy-welcome.png",
+            "altText": "Luffy welcomes you"
+          }
+        }
+      ]
+    }
+  ]
+}

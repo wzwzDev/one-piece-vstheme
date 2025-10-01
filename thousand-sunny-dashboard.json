@@ -1,0 +1,38 @@
+{
+  "thousandSunnyDashboard": {
+    "shipStatus": {
+      "health": "Code quality metrics as ship condition",
+      "speed": "Build and compile times",
+      "crew": "Team member activity and contributions",
+      "supplies": "Dependencies and package health",
+      "weather": "Project timeline and deadlines"
+    },
+    "shipRooms": {
+      "galley": {
+        "name": "🍳 Sanji's Kitchen",
+        "function": "Package management and dependencies",
+        "features": ["Recipe book for common patterns", "Ingredient quality checker"]
+      },
+      "library": {
+        "name": "📚 Robin's Library", 
+        "function": "Documentation and knowledge base",
+        "features": ["Code archaeology", "Pattern history", "Best practices vault"]
+      },
+      "workshop": {
+        "name": "🔧 Franky's Workshop",
+        "function": "Build tools and CI/CD",
+        "features": ["SUPER build configurations", "Deployment automation"]
+      },
+      "infirmary": {
+        "name": "🏥 Chopper's Medical Bay",
+        "function": "Code health monitoring and fixes",
+        "features": ["Bug diagnosis", "Performance health checks", "Code recovery"]
+      },
+      "crowsNest": {
+        "name": "🔭 Lookout Point",
+        "function": "Monitoring and alerts",
+        "features": ["Error watching", "Performance monitoring", "Security scanning"]
+      }
+    }
+  }
+}

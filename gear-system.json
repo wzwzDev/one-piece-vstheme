@@ -1,0 +1,48 @@
+{
+  "contributes": {
+    "commands": [
+      {
+        "command": "luffy.gearSecond",
+        "title": "🔥 Gear Second - Speed Mode!",
+        "category": "Luffy Powers"
+      },
+      {
+        "command": "luffy.gearThird",
+        "title": "💪 Gear Third - Power Mode!",
+        "category": "Luffy Powers"
+      },
+      {
+        "command": "luffy.gearFourth",
+        "title": "🦍 Gear Fourth - Bounce Mode!",
+        "category": "Luffy Powers"
+      },
+      {
+        "command": "luffy.gearFifth",
+        "title": "☀️ Gear Fifth - Sun God Mode!",
+        "category": "Luffy Powers"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "luffy.gearSecond",
+        "key": "ctrl+shift+2",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "luffy.gearThird", 
+        "key": "ctrl+shift+3",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "luffy.gearFourth",
+        "key": "ctrl+shift+4",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "luffy.gearFifth",
+        "key": "ctrl+shift+5",
+        "when": "editorTextFocus"
+      }
+    ]
+  }
+}

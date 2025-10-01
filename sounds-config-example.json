@@ -1,0 +1,22 @@
+{
+  "sounds": {
+    "commands": [
+      {
+        "command": "workbench.action.files.save",
+        "sound": "sounds/luffy-gomu-gomu.wav"
+      },
+      {
+        "command": "editor.action.formatDocument", 
+        "sound": "sounds/zoro-sword-slash.wav"
+      },
+      {
+        "command": "workbench.action.debug.start",
+        "sound": "sounds/nami-clima-tact.wav"
+      },
+      {
+        "command": "git.commit",
+        "sound": "sounds/ship-bell.wav"
+      }
+    ]
+  }
+}

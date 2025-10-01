@@ -1,0 +1,46 @@
+{
+  "adventureLog": {
+    "grandLineProgress": {
+      "description": "Track your coding journey like Luffy's adventure!",
+      "islands": [
+        {
+          "name": "🌴 Beginner Island",
+          "challenge": "Write your first 100 lines of code",
+          "reward": "Straw Hat Badge"
+        },
+        {
+          "name": "🏝️ Bug Island", 
+          "challenge": "Fix 50 bugs without breaking anything",
+          "reward": "Debugging Master Badge"
+        },
+        {
+          "name": "⛰️ Algorithm Mountain",
+          "challenge": "Implement 10 different algorithms",
+          "reward": "Code Warrior Badge"
+        },
+        {
+          "name": "🌊 Refactor Ocean",
+          "challenge": "Refactor legacy code successfully",
+          "reward": "Code Archaeologist Badge"
+        },
+        {
+          "name": "🏴‍☠️ Pirate King Summit",
+          "challenge": "Lead a successful project to completion",
+          "reward": "Code Pirate King Crown"
+        }
+      ]
+    },
+    "bountySystem": {
+      "description": "Your coding skills have a bounty!",
+      "calculation": "Based on: Lines of code, bugs fixed, features shipped, code reviews",
+      "ranks": [
+        "🏴‍☠️ Rookie Pirate (0-1M berries)",
+        "⚔️ Skilled Pirate (1M-10M berries)", 
+        "👑 Pirate Captain (10M-100M berries)",
+        "🌟 Supernova (100M-1B berries)",
+        "👑 Yonko (1B+ berries)",
+        "☀️ Pirate King (Legendary)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/* Test CSS file for Luffy Pirate Flag icon! */
+.luffy-theme {
+    background-color: #DC143C; /* Luffy Red */
+    color: #FFD700; /* Straw Hat Yellow */
+}
+
+.straw-hat {
+    border-radius: 50%;
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+}
+
+/* This should show your custom CSS Pirate Flag icon! 🏴‍☠️ */

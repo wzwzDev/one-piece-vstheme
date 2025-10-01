@@ -1,0 +1,68 @@
+{
+  "name": "Luffy One Piece Mysterious Night",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#0F0F23",
+    "editor.foreground": "#C0C0C0",
+    "activityBar.background": "#1C1C3A",
+    "activityBar.foreground": "#C0C0C0",
+    "sideBar.background": "#191932",
+    "sideBar.foreground": "#C0C0C0",
+    "statusBar.background": "#2F2F5F",
+    "statusBar.foreground": "#E6E6FA",
+    "titleBar.activeBackground": "#1C1C3A",
+    "titleBar.activeForeground": "#E6E6FA",
+    "panel.background": "#0F0F23",
+    "panel.border": "#4169E1",
+    "terminal.background": "#0F0F23",
+    "terminal.foreground": "#C0C0C0",
+    "editorGroup.border": "#4169E1",
+    "editorGroupHeader.tabsBackground": "#191932",
+    "tab.activeBackground": "#2F2F5F",
+    "tab.activeForeground": "#E6E6FA",
+    "tab.inactiveBackground": "#191932",
+    "tab.inactiveForeground": "#808080"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#9370DB",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#87CEEB"
+      }
+    },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#696969",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#DDA0DD"
+      }
+    },
+    {
+      "scope": ["variable", "support.variable"],
+      "settings": {
+        "foreground": "#B0C4DE"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#6495ED",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

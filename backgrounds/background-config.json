@@ -1,0 +1,42 @@
+{
+  "customBackgrounds": {
+    "luffyMode": {
+      "name": "🏴‍☠️ Luffy Captain Mode",
+      "description": "Luffy's silhouette with straw hat in the background",
+      "opacity": 0.05,
+      "imagePath": "./backgrounds/luffy-silhouette.png"
+    },
+    "thousandSunnyMode": {
+      "name": "⛵ Thousand Sunny Ship Mode", 
+      "description": "Sailing on the Grand Line background",
+      "opacity": 0.08,
+      "imagePath": "./backgrounds/thousand-sunny.png"
+    },
+    "strawHatMode": {
+      "name": "🎩 Straw Hat Focus Mode",
+      "description": "Minimalist straw hat watermark",
+      "opacity": 0.03,
+      "imagePath": "./backgrounds/straw-hat-minimal.png"
+    },
+    "grandLineMode": {
+      "name": "🌊 Grand Line Adventure Mode",
+      "description": "Ocean waves and adventure background",
+      "opacity": 0.06,
+      "imagePath": "./backgrounds/grand-line-ocean.png"
+    },
+    "gearFifthMode": {
+      "name": "☀️ Gear Fifth Sun God Mode",
+      "description": "Nika sun god energy background",
+      "opacity": 0.04,
+      "imagePath": "./backgrounds/gear-fifth-nika.png"
+    }
+  },
+  "backgroundSettings": {
+    "enableCustomCursor": true,
+    "cursorStyle": "straw-hat-cursor.png",
+    "enableParticleEffects": true,
+    "particleType": "floating-straw-hats",
+    "enableSoundEffects": true,
+    "typingSounds": ["gomu-gomu-1.wav", "gomu-gomu-2.wav", "gomu-gomu-3.wav"]
+  }
+}

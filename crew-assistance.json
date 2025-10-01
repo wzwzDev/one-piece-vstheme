@@ -1,0 +1,94 @@
+{
+  "strawHatCrew": {
+    "zoro": {
+      "role": "🗡️ Code Warrior - Debugging Specialist",
+      "catchphrase": "I'll cut through any bug!",
+      "abilities": [
+        "Three-sword style debugging (frontend, backend, database)",
+        "Santoryu error slashing",
+        "Gets lost in code but finds the solution"
+      ],
+      "activation": "Say 'Zoro help' in comments"
+    },
+    "nami": {
+      "role": "🗺️ Code Navigator - Architecture Guide", 
+      "catchphrase": "I'll map out the perfect solution!",
+      "abilities": [
+        "Creates visual code maps",
+        "Optimizes project structure",
+        "Warns about technical debt (like weather)"
+      ],
+      "activation": "Say 'Nami navigate' in comments"
+    },
+    "usopp": {
+      "role": "🎯 Code Sniper - Testing Expert",
+      "catchphrase": "I never miss a bug!",
+      "abilities": [
+        "Precision unit testing",
+        "Long-range integration tests",
+        "Creative testing solutions"
+      ],
+      "activation": "Say 'Usopp test' in comments"
+    },
+    "sanji": {
+      "role": "👨‍🍳 Code Chef - Performance Optimizer",
+      "catchphrase": "I'll cook up the perfect algorithm!",
+      "abilities": [
+        "Recipe-based code patterns",
+        "Performance optimization cooking",
+        "Serves hot, fast code"
+      ],
+      "activation": "Say 'Sanji optimize' in comments"
+    },
+    "chopper": {
+      "role": "🦌 Code Doctor - Error Healer",
+      "catchphrase": "I'll cure any code sickness!",
+      "abilities": [
+        "Diagnoses code health",
+        "Heals broken functions",
+        "Emergency code surgery"
+      ],
+      "activation": "Say 'Chopper heal' in comments"
+    },
+    "robin": {
+      "role": "📚 Code Archaeologist - Documentation Expert",
+      "catchphrase": "History reveals the truth!",
+      "abilities": [
+        "Reads ancient legacy code",
+        "Discovers hidden patterns",
+        "Creates historical code documentation"
+      ],
+      "activation": "Say 'Robin research' in comments"
+    },
+    "franky": {
+      "role": "🤖 Code Shipwright - Build Master",
+      "catchphrase": "SUPER build system!",
+      "abilities": [
+        "Builds awesome CI/CD pipelines",
+        "Mechanical code assembly",
+        "Cola-powered deployments"
+      ],
+      "activation": "Say 'Franky build' in comments"
+    },
+    "brook": {
+      "role": "🎵 Code Musician - Code Harmony",
+      "catchphrase": "Yohohoho! Beautiful code melody!",
+      "abilities": [
+        "Creates harmonious code structure",
+        "Musical variable naming",
+        "Soul-touching clean code"
+      ],
+      "activation": "Say 'Brook harmonize' in comments"
+    },
+    "jinbe": {
+      "role": "🌊 Code Helmsman - Flow Control Master",
+      "catchphrase": "Steady as the ocean currents!",
+      "abilities": [
+        "Controls async flow perfectly",
+        "Fishman karate data manipulation",
+        "Calm in coding storms"
+      ],
+      "activation": "Say 'Jinbe flow' in comments"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Luffy One Piece Sunset Battle",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#2F1B14",
+    "editor.foreground": "#FFE4B5",
+    "activityBar.background": "#DC143C",
+    "activityBar.foreground": "#FFFFFF",
+    "sideBar.background": "#4A2C2A",
+    "sideBar.foreground": "#FFE4B5",
+    "statusBar.background": "#B22222",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#DC143C",
+    "titleBar.activeForeground": "#FFFFFF",
+    "panel.background": "#2F1B14",
+    "panel.border": "#DC143C",
+    "terminal.background": "#2F1B14",
+    "terminal.foreground": "#FFE4B5",
+    "editorGroup.border": "#DC143C",
+    "editorGroupHeader.tabsBackground": "#4A2C2A",
+    "tab.activeBackground": "#DC143C",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveBackground": "#4A2C2A",
+    "tab.inactiveForeground": "#CD853F"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#FF6347",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#FFD700"
+      }
+    },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#CD853F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#FF8C00"
+      }
+    },
+    {
+      "scope": ["variable", "support.variable"],
+      "settings": {
+        "foreground": "#F4A460"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#FF4500",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

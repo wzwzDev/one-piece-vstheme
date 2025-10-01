@@ -1,0 +1,52 @@
+{
+  "Luffy Function": {
+    "prefix": "luffy-func",
+    "body": [
+      "// 🏴‍☠️ ${1:functionName} - Gomu Gomu Power!",
+      "function ${1:functionName}(${2:params}) {",
+      "    // I'm gonna be King of the Pirates!",
+      "    ${3:// Your epic code here}",
+      "    return ${4:result};",
+      "}"
+    ],
+    "description": "Create a Luffy-themed function"
+  },
+  "Straw Hat Class": {
+    "prefix": "straw-hat-class", 
+    "body": [
+      "// ⛵ ${1:ClassName} - Straw Hat Crew Member!",
+      "class ${1:ClassName} {",
+      "    constructor(${2:params}) {",
+      "        // Adventure begins here! 🌊",
+      "        ${3:// Initialize your pirate}",
+      "    }",
+      "",
+      "    // 🥊 Special attack method",
+      "    ${4:specialAttack}() {",
+      "        ${5:// Unleash your power!}",
+      "    }",
+      "}"
+    ],
+    "description": "Create a Straw Hat Pirates class"
+  },
+  "One Piece Comment": {
+    "prefix": "op-comment",
+    "body": [
+      "/**",
+      " * 🏴‍☠️ ${1:Title}",
+      " * ${2:Description of this epic code}",
+      " * @author ${3:Your Pirate Name}",
+      " * @crew Straw Hat Pirates",
+      " * @dream ${4:Your coding dream}",
+      " */"
+    ],
+    "description": "One Piece themed comment block"
+  },
+  "Gomu Gomu Console": {
+    "prefix": "gomu-log",
+    "body": [
+      "console.log('🥊 Gomu Gomu no ${1:LogName}:', ${2:variable});"
+    ],
+    "description": "Luffy-style console log"
+  }
+}
